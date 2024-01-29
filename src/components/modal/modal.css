@@ -1,0 +1,22 @@
+.modal {
+  display: none;
+}
+
+.modal-overlay {
+  /* Estilos del overlay, por ejemplo, un fondo oscuro semi-transparente */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+  /* Estilos del contenedor del modal, centrado en la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-content {
+  /* Estilos del contenido del modal */
+  background-color: #fff;
+  padding: 1rem;
+}
